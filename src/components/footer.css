@@ -1,0 +1,28 @@
+.footer {
+    display: inline;
+    /* float: left; */
+    font-size: smaller;
+    overflow: hidden;
+
+    position: relative;
+    top: 200px
+}
+/* .policies {
+    
+    width: 200px;
+    margin: 5px;
+} */
+/* .social {
+    display: inline-block;
+
+} */
+/* .accreditations {
+    display: inline-block;
+} */
+.footer_item {
+    display: inline-block;
+    width: wrap-content;
+    height: 200px;
+    padding: 5px;
+    
+}
