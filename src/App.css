@@ -113,3 +113,15 @@ ul {
   padding: 20px 0;
   font-size: 30px;
 }
+.page_text {
+  display: block;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+.page_image {
+  display: block;
+  width:  50%;
+  height: 50%;
+  float: left;
+}

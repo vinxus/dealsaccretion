@@ -57,11 +57,11 @@ export default function RouteManager(props: any) {
              </div>
     }
     if(props.routename === "retail") {
-      title = "Retail Info";
+      title = "Retail";
       text =<div className="retail_info"> <ul>
-          <li>Retail Form</li>
-          <li>Who we serve? People.</li>
-          <li>How do we serve them - With passion.</li>
+          <li></li>
+          <li>We are interested in talking to retail businesss owners looking to sell.</li>
+          <li>Contact us at <a href="mailto:info@dealsaccretion.com">info@dealsaccretion.com</a></li>
         </ul></div>
     }
     return (

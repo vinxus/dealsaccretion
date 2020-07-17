@@ -18,6 +18,7 @@ import { Accordion, Button, Card }  from 'react-bootstrap';
 
 import Home from "./components/Home";
 import ContactUs from "components/ContactUs";
+import Construction from "components/Construction";
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -105,6 +106,9 @@ export default function App() {
               </Route>
               <Route path="/contactus">
                 <ContactUs routename='contactus' />
+              </Route>
+              <Route path="/construction">
+                <Construction routename="construction" />
               </Route>
               <Route path="/policy">
                 <Policy routename="policy" />
