@@ -36,7 +36,7 @@ export default function App() {
           <div>
             <ul>
               <li  className="topmenu">
-                <Link to="/">Home</Link>
+                <Link to="/"><img src="/images/dalogo2.jpeg" alt="DA Logo" width="30px" height="30px"/></Link>
               </li>
               <li className="topmenu subitems">
                 <a href="/aboutus">About Us </a>
