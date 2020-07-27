@@ -3,7 +3,7 @@ import React, { Suspense } from 'react';
 //const OtherComponent = React.lazy(() => import('./OtherComponent'));
 //const AnotherComponent = React.lazy(() => import('./AnotherComponent'));
 
-function HomeComponent() {
+export default function HomeComponent() {
   return (
     <div>
       <Suspense fallback={<div>Loading...</div>}>

@@ -1,8 +1,5 @@
 import React, { Suspense } from 'react';
 
-//const OtherComponent = React.lazy(() => import('./OtherComponent'));
-//const AnotherComponent = React.lazy(() => import('./AnotherComponent'));
-
 export default function AboutComponent() {
   return (
     <div>

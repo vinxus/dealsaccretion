@@ -17,7 +17,7 @@ class SectorsComponent extends React.Component {
             
                 <p>Sectors we work in</p>
                 <ul>
-                    <li><Link to="health">Health and Social Care</Link></li>
+                    <li><Link to="health">Health Social Care</Link></li>
                     <li><Link to="security">Security</Link></li>
                     <li><Link to="retail">Retail</Link></li>
                     <li><Link to="/construction">Construction</Link></li>

@@ -4,6 +4,7 @@ import Services from "./routes/Services";
 import Footer from "./components/Footer";
 import RouteManager from "./components/RouteManager";
 import Policy from "./components/Policy";
+import TheTeam from "./components/TheTeam";
 // import jquery from 'jquery';
 // import BootStrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -43,6 +44,7 @@ export default function App() {
                 <ul className="submenu">
                   <li><Link to="/mission">Our Mission</Link></li>
                   <li><Link to="/vision">Our Vision</Link></li>
+                  <li><Link to="/theteam">The Team</Link></li>
                   <li><Link to="/contactus">Contact Us</Link></li>
                 </ul>
                 {/* <Link to="/about">About</Link> */}
@@ -63,8 +65,6 @@ export default function App() {
                 <Link to="/services">Services</Link>
               </li>
             </ul>
-
-            <hr />
 
             {/*
               A <Switch> looks through all its children <Route>
@@ -108,10 +108,14 @@ export default function App() {
                 <ContactUs routename='contactus' />
               </Route>
               <Route path="/construction">
-                <Construction routename="construction" />
+                {/* <Construction routename="construction" /> */}
+                <RouteManager routename="construction" />
               </Route>
               <Route path="/policy">
                 <Policy routename="policy" />
+              </Route>
+              <Route path="/theteam">
+                <TheTeam routename="theteam" />
               </Route>
             </Switch>
 

@@ -58,11 +58,33 @@ export default function RouteManager(props: any) {
     }
     if(props.routename === "retail") {
       title = "Retail";
-      text =<div className="retail_info"> <ul>
+      text =<div className="retail_info"> 
+        <ul>
           <li></li>
           <li>We are interested in talking to retail businesss owners looking to sell.</li>
           <li>Contact us at <a href="mailto:info@dealsaccretion.com">info@dealsaccretion.com</a></li>
-        </ul></div>
+        </ul>
+        </div>
+    }
+    if(props.routename === "construction") {
+      title = "Retail";
+      text =<div className="construction_info"> 
+        {/* <ul>
+          <li></li>
+          <li>We are interested in talking to retail businesss owners looking to sell.</li>
+          <li>Contact us at <a href="mailto:info@dealsaccretion.com">info@dealsaccretion.com</a></li>
+        </ul> */}
+          <div className="page_text">
+              <p>
+                We are interested in the construction sector. If you have a construction business and you want to sell, please email us at 
+                 &nbsp;<a href="mailto:info@dealsaccretion.com">info@dealsaccretion.com</a>.
+            </p>  
+            </div>
+            
+            <div className="page_image">
+             <img src="/images/construction.jpg" alt="Construction" width="90%" height="100%"/>
+            </div>
+        </div>
     }
     return (
       <div>

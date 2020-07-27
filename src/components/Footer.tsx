@@ -23,19 +23,24 @@ export class FooterComponent extends React.Component {
                             <li>Terms and Conditions</li>
                             <li>Cookie Policy</li>
                         </ul>
-
+                        <div>
+                            <div className="social footer_item">
+                                Social Media
+                            </div>
+                            <div className="accreditations footer_item">
+                                Accreditations
+                            </div>
+                            <div className="copyright footer_item" >
+                                <hr/>
+                                &#169;Deals Accretion 2020. All Rights Reserved.
+                            </div>
+                        </div>
                     </div>
-                    <div className="social footer_item">
-                        Social Media
-                    </div>
-                    <div className="accreditations footer_item">
-                        Accreditations
-                    </div>
+                    
+                    
+                    
                 </div>
-                <div className="copyright">
-                    <hr/>
-                    @copyright Deals Accretion 2020
-                </div>
+                
             </div>
             
         );
