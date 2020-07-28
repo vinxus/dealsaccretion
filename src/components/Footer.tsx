@@ -21,7 +21,7 @@ export class FooterComponent extends React.Component {
                         <ul>
                             <li><Link to="policy">Privacy Policy</Link></li>
                             <li>Terms and Conditions</li>
-                            <li>Cookie Policy</li>
+                            <li><Link to="cookie_policy">Cookie Policy</Link></li>
                         </ul>
                         <div>
                             <div className="social footer_item">

@@ -4,7 +4,9 @@ import Services from "./routes/Services";
 import Footer from "./components/Footer";
 import RouteManager from "./components/RouteManager";
 import Policy from "./components/Policy";
+import CookiePolicy from "./components/CookiePolicy";
 import TheTeam from "./components/TheTeam";
+import Health from "./components/Health";
 // import jquery from 'jquery';
 // import BootStrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -49,9 +51,9 @@ export default function App() {
                 </ul>
                 {/* <Link to="/about">About</Link> */}
               </li>
-              <li  className="topmenu">
+              {/* <li  className="topmenu">
                 <Link to="/dashboard">Dashboard</Link>
-              </li>
+              </li> */}
               <li  className="topmenu subitems">
                <a href="/sectors">Sectors</a>
                 <ul className="submenu">
@@ -80,9 +82,9 @@ export default function App() {
               <Route path="/aboutus">
                 <About />
               </Route>
-              <Route path="/dashboard">
+              {/* <Route path="/dashboard">
                 <Dashboard />
-              </Route>
+              </Route> */}
               <Route path="/vision">
                 <Vision />
               </Route>
@@ -96,7 +98,7 @@ export default function App() {
                 <Services />
               </Route>
               <Route path="/health">
-                <Vision />
+                <Health/>
               </Route>
               <Route path="/security">
                 <Vision />
@@ -113,6 +115,9 @@ export default function App() {
               </Route>
               <Route path="/policy">
                 <Policy routename="policy" />
+              </Route>
+              <Route path="/cookie_policy">
+                <CookiePolicy routename="cookie_policy" />
               </Route>
               <Route path="/theteam">
                 <TheTeam routename="theteam" />
@@ -153,13 +158,13 @@ function About() {
   );
 }
 
-function Dashboard() {
-  return (
-    <div>
-      <h2>Dashboard</h2>
-    </div>
-  );
-}
+// function Dashboard() {
+//   return (
+//     <div>
+//       <h2>Dashboard</h2>
+//     </div>
+//   );
+// }
 function Vision() {
   return (
     <div>

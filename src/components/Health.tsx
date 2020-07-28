@@ -12,15 +12,10 @@ class HealthComponent extends React.Component {
     render() {
         return (
             <div>
-                <div className="_container"><h4>Sectors</h4></div>
-            <div className="footer">
-                <p>Sectors we work in
-                    <ul>
-                        <li>Health and Social Care</li>
-                        <li>Security</li>
-                    </ul>
-                </p>
-            </div>
+                <div className="_container"><h5>Health Sectors</h5></div>
+                <div className="health_sector">
+                    <img src="/images/healthcare.jpeg" alt="Health Care" />
+                </div>
             </div>
             
         );
