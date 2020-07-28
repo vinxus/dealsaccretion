@@ -29,23 +29,22 @@ export class PolicyComponent extends React.Component {
                             Personal data includes any data that relates to a living individual who can be identified from that data.  This may include<b/> 
                             an individual’s name, address, telephone numbers and/or email address, bank details, other financial, health and background <b/> 
                             information.  We collect information about individuals including grant applicants, our champions, our supporters, our <b/> 
-                            volunteers, our donors, our staff and trustees.
+                            volunteers, our donors, our staff and directors.
 
                         </p>
 
                         <h6>How we collect personal data</h6>
                         <p>
-                            The charity receives and stores personal information supplied to us in writing, via email, via the telephone, in person or online.<b/> 
-                            We collect personal data when an individual: Applies for a crisis grant; Enquires about our services; Subscribes to our newsletters; <b/> 
-                            Commences employment; Commences trusteeship; Becomes a Champion; Gets involved with volunteering opportunities; Attends Charity’s <b/> 
-                            events; Donates money to the Charity.
+                            The Company receives and stores personal information supplied to us in writing, via email, via the telephone, in person or online.<b/> 
+                            We collect personal data when an individual: Applies business transactions; Enquires about our services; Subscribes to our newsletters; <b/> 
+                            Commences employment; Commences directorship; Becomes a Director;
 
-                            We may also receive personal data from third parties, for example, a welfare officer, charity, agency or organisation who refers an <b/> 
+                            We may also receive personal data from third parties, for example, a consultant, agency or organisation who refers an <b/> 
                             applicant to our service.
                         </p>
                         <h6>Purpose of using personal data</h6>
                         <p>
-                            The Charity principally collects personal information to provide data subjects with the services or information they have requested.<b/> 
+                            The Company principally collects personal information to provide data subjects with the services or information they have requested.<b/> 
                              Where we use personal data, it may be because the data subject consented to us doing so, we have a contractual obligation with the <b/> 
                              data subject, we are complying with legal obligations or we are pursuing a legitimate interest. We have set out in the table below <b/> 
                              the reasons why we process your personal data and the associated legal bases we rely upon to legally permit us to process your personal<b/> 
@@ -65,31 +64,31 @@ export class PolicyComponent extends React.Component {
                                 <li>·       Performance of a contract</li>
                             </ul>
 
-                            <h6>To produce case studies of grant beneficiaries and Champions</h6>
+                            <h6>To produce case studies of business activities</h6>
                             <ul>
                                 <li>·       Consent</li>                                
                             </ul>                            
-                            <h6>To communicate with Champions and Supporter Club member key contacts for CWC related purposes and fundraising support</h6>
+                            <h6>To communicate with Consultants and Suppliers key contacts for DA related purposes and financial activities</h6>
                             <ul>
                                 <li>·       Performance of a contract</li>
                                 <li>·       Legitimate Interest</li>
                                 <li>·       Consent</li>
                             </ul>
-                            <h6>To process donation payments and to collect money that is owed to us</h6>
+                            <h6>To process payments and to collect money that is owed to us</h6>
                             <ul>
                                 <li>·       Performance of a contract</li>
                                 <li>·       Compliance with legal obligations</li>
                             </ul>
                             <h6>
-                                To communicate with you with updates of the charity via emails, or other messages consistent with any permissions <br/>
-                                you have communicated with us (i.e newsletter subscription, fundraising purposes)
+                                To communicate with you with updates of the Company via emails, or other messages consistent with any permissions <br/>
+                                you have communicated with us (i.e newsletter subscription, financial purposes)
                             </h6>
                             <ul>
                                 <li>·       Consent</li>
                                 <li>·       Legitimate Interest</li>
                             </ul>
                             <h6>
-                                To provide personal data to HMRC if a data subject has agreed to us claiming Gift Aid on donations made to Deals Accretion
+                                To provide personal data to HMRC if a data subject has agreed to us processing their financial information in dealing with Deals Accretion
                             </h6>    
                             <ul>
                                 <li>·       Compliance with legal obligations</li>
@@ -103,7 +102,7 @@ export class PolicyComponent extends React.Component {
                             origin or state of health. This information is subject to even stricter rules than ordinary personal information and you can be assured<b/> 
                             that any sensitive information you choose to give will be kept confidential and only used in accordance with this privacy policy.<b/> 
 
-                            The Company may disclose personal data to other employees including the Charity’s trustees.  We do not permit these parties to use such <b/> 
+                            The Company may disclose personal data to other employees including the Company’s directors.  We do not permit these parties to use such <b/> 
                             information for any other purposes than to perform the service instructed by us.<b/> 
 
                             We may also share personal data with suppliers, known as ‘data processors’, to process data on our behalf, for example, to deliver goods<b/> 
@@ -119,15 +118,15 @@ export class PolicyComponent extends React.Component {
                         <p>
                             We will only use your personal information if you have provided your consent, if we have a reasonable or legitimate interest or if we are<br/>
                             permitted to do so by law. When we process data for the purposes of grant administration, fundraising support or subscription to newsletters<br/>
-                            we require opt in consent from you. The Care Workers’ Charity informs these individuals about the data we require from them at the point of <br/>
+                            we require opt in consent from you. Deals Accretion informs these individuals about the data we require from them at the point of <br/>
                             requesting it, sets out how it will be used, and obtains informed consent.  Where we offer you services either directly or through a <br/>
                             third-party supplier, we will ask you for permission to use and/or share your information before we proceed.<b/> 
                         </p>
                         <h6>How long we keep your personal information</h6>
                         <p>
                             When the personal data is no longer needed it will be destroyed or permanently rendered anonymous.  Examples might be that the application<b/> 
-                            process has been completed, volunteering, employment or trusteeship has terminated.  As a rule, we will hold your information for a period <b/> 
-                            of up to 6 years from the end of your relationship with the charity in accordance with our data retention policy. Please request to be sent <b/> 
+                            process has been completed, volunteering, employment or directorship has terminated.  As a rule, we will hold your information for a period <b/> 
+                            of up to 6 years from the end of your relationship with the Company in accordance with our data retention policy. Please request to be sent <b/> 
                             our full Data Protection Policy for further details.<b/> 
                         </p>
                         <h6>Storage and security of personal data</h6>
