@@ -130,8 +130,20 @@ ul {
   height: 70%;
 }
 .health_sector {
-  background-image: url('/images/healthcare.jpeg');
+  
   width: 50%;
   height: 50%;
   background-repeat: no-repeat;
 }
+
+.contact_form {
+  margin: 15x;
+  border: #000;
+  background-color: lightgray;
+  padding: 15px;
+}
+.contact_form input {
+  padding: 2px;
+  margin: 5px;
+}
+
