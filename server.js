@@ -41,12 +41,8 @@ app.use(function(req, res, next) {
 });
 app.post('/send', (req, res, next) => {
   const name = req.body.name
-  const sector = req.body.sector
-  const email_from = req.body.email
-  // const email = req.body.email
-  const email = 'admin@dealsaccretion.com'
-  const message = "Message from: " + name + "<br/> Email: " + email_from + "<br/>Sector: " + sector + "<br/>" + req.body.message
-
+  const email = 'admin@dealsaccretion.com' // TODO: store and get this from config/environment file
+  const message = req.body.message
 
   var mail = {
     from: name,

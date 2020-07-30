@@ -60,9 +60,10 @@ export default class ContactUs extends React.Component<{}, any> {
     handleSubmit(event:any) {
       event.preventDefault();
       const templateId = 'template_id';
-      //const messageHtml = renderEmail(<MyEmail name={this.state.name}>{this.state.feedback}</MyEmail>)
-      // const messageHtml = '';
-      this.sendFeedback(templateId, { message_html: this.state.message, from_name: this.state.name, reply_to: this.state.email,
+      // const messageHtml = renderEmail(<MyEmail name={this.state.name}>{this.state.feedback}</MyEmail>)
+      const messageHtml = this.renderEmail()
+      
+      this.sendMessage(templateId, { message: messageHtml, from_name: this.state.name, reply_to: this.state.email,
          sector: this.state.sector})
       
     }
@@ -74,7 +75,7 @@ export default class ContactUs extends React.Component<{}, any> {
       
     }
 
-    sendFeedback (templateId:any, variables:any) {      
+    sendMessage (templateId:any, variables:any) {      
 
       axios({
         method: 'POST',
@@ -100,6 +101,9 @@ export default class ContactUs extends React.Component<{}, any> {
 
     resetForm(){
       this.setState({feedback: ''});
+    }
+    renderEmail() {
+      return "Message from: " + this.state.name + "<br/> Email: " + this.state.email + "<br/>Sector: " + this.state.sector + "<br/>" + this.state.message;
     }
   }
   
