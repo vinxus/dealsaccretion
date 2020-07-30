@@ -14,26 +14,37 @@ class TheTeamComponent extends React.Component {
         return (
             <div>
                 <h5>The Team</h5>
-                <div className="page_text profile_text">
-                    Tajudeen Adekanmbi
-                    CEO Deals Accretion
+                <div className="profile_card">
+                    <div className="page_text profile_text">
+                        <span className="profile_name">Tajudeen Adekanmbi</span><br/>
+                        <span className="profile_job_title">CEO Deals Accretion</span>
+                        <p>
+                        I have over 20 years experience managing businesses of different sizes.<br/>
+                        I have over 20 years experience managing businesses of different sizes.<br/>
+                        I have over 20 years experience managing businesses of different sizes.<br/>
+                        I have over 20 years experience managing businesses of different sizes.<br/>
+                        </p>
+                    </div>
+                    <div className="page_image profile_picture">
+                        <img src="/images/ceoprofile.jpeg" alt="Chief Executive Officer" width="160px" height="200px"/>
+                    </div>
                 </div>
-                <div className="page_image profile_picture">
-                    <img src="/images/ceoprofile.jpeg" alt="Chief Executive Officer" width="190px" height="240px"/>
-                </div>
-                <div className="page_text profile_text">
-                Rashidat Adekunle-Mohammed                    
-                Executive Director Deals Accretion
-                </div>
-                <div className="page_image profile_picture">
-                    <img src="/images/mgtprofile.jpeg" alt="Executive Director" width="190px" height="240px"/>
-                </div>
-                <ul>
-                    <li><Link to="health">Health and Social Care</Link></li>
-                    <li><Link to="security">Security</Link></li>
-                    <li><Link to="retail">Retail</Link></li>
-                    <li><Link to="/construction">Construction</Link></li>
-                </ul>
+                
+                <div className="profile_card">
+                    <div className="page_text profile_text">
+                    <span className="profile_name">Rashidat Adekunle-Mohammed</span><br/>                    
+                    <span className="profile_job_title">Executive Director Deals Accretion</span>
+                    <p>
+                        I have worked in Care and other businesses. <br/>
+                        knsdlflk lkflsfls lskdjfsd lasjdflj l; kljdlfj kljdfj lsdldlfl taisd mnaj<br/>
+                        knsdlflk lkflsfls lskdjfsd lasjdflj l; kljdlfj kljdfj lsdldlfl taisd mnaj<br/>
+                    </p>
+                    </div>
+                    <div className="page_image profile_picture">
+                        <img src="/images/mgtprofile.jpeg" alt="Executive Director" width="160px" height="200px"/>
+                    </div>
+                </div>                    
+                
                 
             
             </div>

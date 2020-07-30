@@ -118,6 +118,7 @@ ul {
   width: 50%;
   height: 50%;
   float: left; 
+  font-size: small;
 }
 .page_image {
   display: block;
@@ -146,4 +147,16 @@ ul {
   padding: 2px;
   margin: 5px;
 }
+.profile_card {
+  width: 100%;
+  height: 50%;
 
+  margin: 5px;
+  padding: 15px;;
+}
+.profile_name {
+  font-style: bold;
+}
+.profile_job_title {
+  font-style: italic;
+}
